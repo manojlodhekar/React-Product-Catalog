@@ -1,0 +1,45 @@
+{
+  "name": "wallmart-product-catelog",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "axios": "^0.17.1",
+    "classnames": "^2.2.6",
+    "less": "^2.7.2",
+    "lodash": "4.17.2",
+    "node-sass": "^4.9.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.1.1",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.0",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-react": "^0.78.3",
+    "react-semantic-ui": "^0.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom  --watchAll",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^23.1.0",
+    "jest-enzyme": "^6.0.1",
+    "moxios": "^0.4.0",
+    "react-test-renderer": "^16.0.0",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-mock-store": "^1.5.3"
+  }
+}

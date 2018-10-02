@@ -1,0 +1,1280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList is defined should render inner component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ProductList
+    items={
+        Array [
+            Object {
+              "customerRating": 4,
+              "itemId": "123",
+              "longDescription": "test1",
+              "mediumImage": "fd/df.jpg",
+              "name": "test",
+              "numReviews": 5,
+              "salePrice": "123",
+            },
+          ]
+    }
+    linkUrl="/redccomendation/"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          style={
+                    Object {
+                              "borderBottom": "1px solid grey",
+                              "padding": 15,
+                            }
+          }
+>
+          <ItemGroup
+                    className="listContainer"
+                    divided={true}
+          >
+                    <Item>
+                              <Link
+                                        replace={false}
+                                        to="/redccomendation/123"
+                              >
+                                         
+                                        <ItemImage
+                                                  onClick={[Function]}
+                                                  size="small"
+                                                  src="fd/df.jpg"
+                                        />
+                              </Link>
+                              <ItemContent
+                                        className="listContent"
+                              >
+                                        <Link
+                                                  replace={false}
+                                                  to="/redccomendation/123"
+                                        >
+                                                  <ItemHeader
+                                                            className="productHeader"
+                                                            onClick={[Function]}
+                                                  >
+                                                            test
+                                                  </ItemHeader>
+                                        </Link>
+                                        <ItemMeta
+                                                  className="productHeader"
+                                        >
+                                                  Price : $ 
+                                                  123
+                                        </ItemMeta>
+                                        <ItemMeta
+                                                  className="moreInfo"
+                                        >
+                                                   
+                                                  <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                  />
+                                                  <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                  />
+                                                  <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                  />
+                                                  <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                  />
+                                                   
+                                                  5
+                                        </ItemMeta>
+                                        <ItemDescription>
+                                                  <div
+                                                            dangerouslySetInnerHTML={
+                                                                      Object {
+                                                                                "__html": "test1",
+                                                                              }
+                                                            }
+                                                  />
+                                        </ItemDescription>
+                              </ItemContent>
+                    </Item>
+          </ItemGroup>
+</div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "123",
+        "nodeType": "host",
+        "props": Object {
+          "children": <ItemGroup
+            className="listContainer"
+            divided={true}
+>
+            <Item>
+                        <Link
+                                    replace={false}
+                                    to="/redccomendation/123"
+                        >
+                                     
+                                    <ItemImage
+                                                onClick={[Function]}
+                                                size="small"
+                                                src="fd/df.jpg"
+                                    />
+                        </Link>
+                        <ItemContent
+                                    className="listContent"
+                        >
+                                    <Link
+                                                replace={false}
+                                                to="/redccomendation/123"
+                                    >
+                                                <ItemHeader
+                                                            className="productHeader"
+                                                            onClick={[Function]}
+                                                >
+                                                            test
+                                                </ItemHeader>
+                                    </Link>
+                                    <ItemMeta
+                                                className="productHeader"
+                                    >
+                                                Price : $ 
+                                                123
+                                    </ItemMeta>
+                                    <ItemMeta
+                                                className="moreInfo"
+                                    >
+                                                 
+                                                <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                />
+                                                <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                />
+                                                <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                />
+                                                <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                                />
+                                                 
+                                                5
+                                    </ItemMeta>
+                                    <ItemDescription>
+                                                <div
+                                                            dangerouslySetInnerHTML={
+                                                                        Object {
+                                                                                    "__html": "test1",
+                                                                                  }
+                                                            }
+                                                />
+                                    </ItemDescription>
+                        </ItemContent>
+            </Item>
+</ItemGroup>,
+          "style": Object {
+            "borderBottom": "1px solid grey",
+            "padding": 15,
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Item>
+              <Link
+                            replace={false}
+                            to="/redccomendation/123"
+              >
+                             
+                            <ItemImage
+                                          onClick={[Function]}
+                                          size="small"
+                                          src="fd/df.jpg"
+                            />
+              </Link>
+              <ItemContent
+                            className="listContent"
+              >
+                            <Link
+                                          replace={false}
+                                          to="/redccomendation/123"
+                            >
+                                          <ItemHeader
+                                                        className="productHeader"
+                                                        onClick={[Function]}
+                                          >
+                                                        test
+                                          </ItemHeader>
+                            </Link>
+                            <ItemMeta
+                                          className="productHeader"
+                            >
+                                          Price : $ 
+                                          123
+                            </ItemMeta>
+                            <ItemMeta
+                                          className="moreInfo"
+                            >
+                                           
+                                          <Icon
+                                                        as="i"
+                                                        name="star"
+                                                        size="small"
+                                          />
+                                          <Icon
+                                                        as="i"
+                                                        name="star"
+                                                        size="small"
+                                          />
+                                          <Icon
+                                                        as="i"
+                                                        name="star"
+                                                        size="small"
+                                          />
+                                          <Icon
+                                                        as="i"
+                                                        name="star"
+                                                        size="small"
+                                          />
+                                           
+                                          5
+                            </ItemMeta>
+                            <ItemDescription>
+                                          <div
+                                                        dangerouslySetInnerHTML={
+                                                                      Object {
+                                                                                    "__html": "test1",
+                                                                                  }
+                                                        }
+                                          />
+                            </ItemDescription>
+              </ItemContent>
+</Item>,
+            "className": "listContainer",
+            "divided": true,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/redccomendation/123"
+>
+                   
+                  <ItemImage
+                                    onClick={[Function]}
+                                    size="small"
+                                    src="fd/df.jpg"
+                  />
+</Link>,
+                <ItemContent
+                  className="listContent"
+>
+                  <Link
+                                    replace={false}
+                                    to="/redccomendation/123"
+                  >
+                                    <ItemHeader
+                                                      className="productHeader"
+                                                      onClick={[Function]}
+                                    >
+                                                      test
+                                    </ItemHeader>
+                  </Link>
+                  <ItemMeta
+                                    className="productHeader"
+                  >
+                                    Price : $ 
+                                    123
+                  </ItemMeta>
+                  <ItemMeta
+                                    className="moreInfo"
+                  >
+                                     
+                                    <Icon
+                                                      as="i"
+                                                      name="star"
+                                                      size="small"
+                                    />
+                                    <Icon
+                                                      as="i"
+                                                      name="star"
+                                                      size="small"
+                                    />
+                                    <Icon
+                                                      as="i"
+                                                      name="star"
+                                                      size="small"
+                                    />
+                                    <Icon
+                                                      as="i"
+                                                      name="star"
+                                                      size="small"
+                                    />
+                                     
+                                    5
+                  </ItemMeta>
+                  <ItemDescription>
+                                    <div
+                                                      dangerouslySetInnerHTML={
+                                                                        Object {
+                                                                                          "__html": "test1",
+                                                                                        }
+                                                      }
+                                    />
+                  </ItemDescription>
+</ItemContent>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    <ItemImage
+                      onClick={[Function]}
+                      size="small"
+                      src="fd/df.jpg"
+/>,
+                  ],
+                  "replace": false,
+                  "to": "/redccomendation/123",
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "onClick": [Function],
+                      "size": "small",
+                      "src": "fd/df.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Link
+                      replace={false}
+                      to="/redccomendation/123"
+>
+                      <ItemHeader
+                                            className="productHeader"
+                                            onClick={[Function]}
+                      >
+                                            test
+                      </ItemHeader>
+</Link>,
+                    <ItemMeta
+                      className="productHeader"
+>
+                      Price : $ 
+                      123
+</ItemMeta>,
+                    <ItemMeta
+                      className="moreInfo"
+>
+                       
+                      <Icon
+                                            as="i"
+                                            name="star"
+                                            size="small"
+                      />
+                      <Icon
+                                            as="i"
+                                            name="star"
+                                            size="small"
+                      />
+                      <Icon
+                                            as="i"
+                                            name="star"
+                                            size="small"
+                      />
+                      <Icon
+                                            as="i"
+                                            name="star"
+                                            size="small"
+                      />
+                       
+                      5
+</ItemMeta>,
+                    <ItemDescription>
+                      <div
+                                            dangerouslySetInnerHTML={
+                                                                  Object {
+                                                                                        "__html": "test1",
+                                                                                      }
+                                            }
+                      />
+</ItemDescription>,
+                  ],
+                  "className": "listContent",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <ItemHeader
+                        className="productHeader"
+                        onClick={[Function]}
+>
+                        test
+</ItemHeader>,
+                      "replace": false,
+                      "to": "/redccomendation/123",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "test",
+                        "className": "productHeader",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "test",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        "Price : $ ",
+                        "123",
+                      ],
+                      "className": "productHeader",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Price : $ ",
+                      "123",
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        Array [
+                          <Icon
+                            as="i"
+                            name="star"
+                            size="small"
+/>,
+                          <Icon
+                            as="i"
+                            name="star"
+                            size="small"
+/>,
+                          <Icon
+                            as="i"
+                            name="star"
+                            size="small"
+/>,
+                          <Icon
+                            as="i"
+                            name="star"
+                            size="small"
+/>,
+                        ],
+                        " ",
+                        5,
+                      ],
+                      "className": "moreInfo",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      Object {
+                        "instance": null,
+                        "key": "0",
+                        "nodeType": "class",
+                        "props": Object {
+                          "as": "i",
+                          "name": "star",
+                          "size": "small",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "1",
+                        "nodeType": "class",
+                        "props": Object {
+                          "as": "i",
+                          "name": "star",
+                          "size": "small",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "2",
+                        "nodeType": "class",
+                        "props": Object {
+                          "as": "i",
+                          "name": "star",
+                          "size": "small",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": "3",
+                        "nodeType": "class",
+                        "props": Object {
+                          "as": "i",
+                          "name": "star",
+                          "size": "small",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      " ",
+                      5,
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": <div
+                        dangerouslySetInnerHTML={
+                                                Object {
+                                                                        "__html": "test1",
+                                                                      }
+                        }
+/>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "dangerouslySetInnerHTML": Object {
+                          "__html": "test1",
+                        },
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            style={
+                        Object {
+                                    "borderBottom": "1px solid grey",
+                                    "padding": 15,
+                                  }
+            }
+>
+            <ItemGroup
+                        className="listContainer"
+                        divided={true}
+            >
+                        <Item>
+                                    <Link
+                                                replace={false}
+                                                to="/redccomendation/123"
+                                    >
+                                                 
+                                                <ItemImage
+                                                            onClick={[Function]}
+                                                            size="small"
+                                                            src="fd/df.jpg"
+                                                />
+                                    </Link>
+                                    <ItemContent
+                                                className="listContent"
+                                    >
+                                                <Link
+                                                            replace={false}
+                                                            to="/redccomendation/123"
+                                                >
+                                                            <ItemHeader
+                                                                        className="productHeader"
+                                                                        onClick={[Function]}
+                                                            >
+                                                                        test
+                                                            </ItemHeader>
+                                                </Link>
+                                                <ItemMeta
+                                                            className="productHeader"
+                                                >
+                                                            Price : $ 
+                                                            123
+                                                </ItemMeta>
+                                                <ItemMeta
+                                                            className="moreInfo"
+                                                >
+                                                             
+                                                            <Icon
+                                                                        as="i"
+                                                                        name="star"
+                                                                        size="small"
+                                                            />
+                                                            <Icon
+                                                                        as="i"
+                                                                        name="star"
+                                                                        size="small"
+                                                            />
+                                                            <Icon
+                                                                        as="i"
+                                                                        name="star"
+                                                                        size="small"
+                                                            />
+                                                            <Icon
+                                                                        as="i"
+                                                                        name="star"
+                                                                        size="small"
+                                                            />
+                                                             
+                                                            5
+                                                </ItemMeta>
+                                                <ItemDescription>
+                                                            <div
+                                                                        dangerouslySetInnerHTML={
+                                                                                    Object {
+                                                                                                "__html": "test1",
+                                                                                              }
+                                                                        }
+                                                            />
+                                                </ItemDescription>
+                                    </ItemContent>
+                        </Item>
+            </ItemGroup>
+</div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "123",
+          "nodeType": "host",
+          "props": Object {
+            "children": <ItemGroup
+              className="listContainer"
+              divided={true}
+>
+              <Item>
+                            <Link
+                                          replace={false}
+                                          to="/redccomendation/123"
+                            >
+                                           
+                                          <ItemImage
+                                                        onClick={[Function]}
+                                                        size="small"
+                                                        src="fd/df.jpg"
+                                          />
+                            </Link>
+                            <ItemContent
+                                          className="listContent"
+                            >
+                                          <Link
+                                                        replace={false}
+                                                        to="/redccomendation/123"
+                                          >
+                                                        <ItemHeader
+                                                                      className="productHeader"
+                                                                      onClick={[Function]}
+                                                        >
+                                                                      test
+                                                        </ItemHeader>
+                                          </Link>
+                                          <ItemMeta
+                                                        className="productHeader"
+                                          >
+                                                        Price : $ 
+                                                        123
+                                          </ItemMeta>
+                                          <ItemMeta
+                                                        className="moreInfo"
+                                          >
+                                                         
+                                                        <Icon
+                                                                      as="i"
+                                                                      name="star"
+                                                                      size="small"
+                                                        />
+                                                        <Icon
+                                                                      as="i"
+                                                                      name="star"
+                                                                      size="small"
+                                                        />
+                                                        <Icon
+                                                                      as="i"
+                                                                      name="star"
+                                                                      size="small"
+                                                        />
+                                                        <Icon
+                                                                      as="i"
+                                                                      name="star"
+                                                                      size="small"
+                                                        />
+                                                         
+                                                        5
+                                          </ItemMeta>
+                                          <ItemDescription>
+                                                        <div
+                                                                      dangerouslySetInnerHTML={
+                                                                                    Object {
+                                                                                                  "__html": "test1",
+                                                                                                }
+                                                                      }
+                                                        />
+                                          </ItemDescription>
+                            </ItemContent>
+              </Item>
+</ItemGroup>,
+            "style": Object {
+              "borderBottom": "1px solid grey",
+              "padding": 15,
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Item>
+                <Link
+                                replace={false}
+                                to="/redccomendation/123"
+                >
+                                 
+                                <ItemImage
+                                                onClick={[Function]}
+                                                size="small"
+                                                src="fd/df.jpg"
+                                />
+                </Link>
+                <ItemContent
+                                className="listContent"
+                >
+                                <Link
+                                                replace={false}
+                                                to="/redccomendation/123"
+                                >
+                                                <ItemHeader
+                                                                className="productHeader"
+                                                                onClick={[Function]}
+                                                >
+                                                                test
+                                                </ItemHeader>
+                                </Link>
+                                <ItemMeta
+                                                className="productHeader"
+                                >
+                                                Price : $ 
+                                                123
+                                </ItemMeta>
+                                <ItemMeta
+                                                className="moreInfo"
+                                >
+                                                 
+                                                <Icon
+                                                                as="i"
+                                                                name="star"
+                                                                size="small"
+                                                />
+                                                <Icon
+                                                                as="i"
+                                                                name="star"
+                                                                size="small"
+                                                />
+                                                <Icon
+                                                                as="i"
+                                                                name="star"
+                                                                size="small"
+                                                />
+                                                <Icon
+                                                                as="i"
+                                                                name="star"
+                                                                size="small"
+                                                />
+                                                 
+                                                5
+                                </ItemMeta>
+                                <ItemDescription>
+                                                <div
+                                                                dangerouslySetInnerHTML={
+                                                                                Object {
+                                                                                                "__html": "test1",
+                                                                                              }
+                                                                }
+                                                />
+                                </ItemDescription>
+                </ItemContent>
+</Item>,
+              "className": "listContainer",
+              "divided": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/redccomendation/123"
+>
+                     
+                    <ItemImage
+                                        onClick={[Function]}
+                                        size="small"
+                                        src="fd/df.jpg"
+                    />
+</Link>,
+                  <ItemContent
+                    className="listContent"
+>
+                    <Link
+                                        replace={false}
+                                        to="/redccomendation/123"
+                    >
+                                        <ItemHeader
+                                                            className="productHeader"
+                                                            onClick={[Function]}
+                                        >
+                                                            test
+                                        </ItemHeader>
+                    </Link>
+                    <ItemMeta
+                                        className="productHeader"
+                    >
+                                        Price : $ 
+                                        123
+                    </ItemMeta>
+                    <ItemMeta
+                                        className="moreInfo"
+                    >
+                                         
+                                        <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                        />
+                                        <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                        />
+                                        <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                        />
+                                        <Icon
+                                                            as="i"
+                                                            name="star"
+                                                            size="small"
+                                        />
+                                         
+                                        5
+                    </ItemMeta>
+                    <ItemDescription>
+                                        <div
+                                                            dangerouslySetInnerHTML={
+                                                                                Object {
+                                                                                                    "__html": "test1",
+                                                                                                  }
+                                                            }
+                                        />
+                    </ItemDescription>
+</ItemContent>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      <ItemImage
+                        onClick={[Function]}
+                        size="small"
+                        src="fd/df.jpg"
+/>,
+                    ],
+                    "replace": false,
+                    "to": "/redccomendation/123",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "onClick": [Function],
+                        "size": "small",
+                        "src": "fd/df.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <Link
+                        replace={false}
+                        to="/redccomendation/123"
+>
+                        <ItemHeader
+                                                className="productHeader"
+                                                onClick={[Function]}
+                        >
+                                                test
+                        </ItemHeader>
+</Link>,
+                      <ItemMeta
+                        className="productHeader"
+>
+                        Price : $ 
+                        123
+</ItemMeta>,
+                      <ItemMeta
+                        className="moreInfo"
+>
+                         
+                        <Icon
+                                                as="i"
+                                                name="star"
+                                                size="small"
+                        />
+                        <Icon
+                                                as="i"
+                                                name="star"
+                                                size="small"
+                        />
+                        <Icon
+                                                as="i"
+                                                name="star"
+                                                size="small"
+                        />
+                        <Icon
+                                                as="i"
+                                                name="star"
+                                                size="small"
+                        />
+                         
+                        5
+</ItemMeta>,
+                      <ItemDescription>
+                        <div
+                                                dangerouslySetInnerHTML={
+                                                                        Object {
+                                                                                                "__html": "test1",
+                                                                                              }
+                                                }
+                        />
+</ItemDescription>,
+                    ],
+                    "className": "listContent",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <ItemHeader
+                          className="productHeader"
+                          onClick={[Function]}
+>
+                          test
+</ItemHeader>,
+                        "replace": false,
+                        "to": "/redccomendation/123",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": "test",
+                          "className": "productHeader",
+                          "onClick": [Function],
+                        },
+                        "ref": null,
+                        "rendered": "test",
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          "Price : $ ",
+                          "123",
+                        ],
+                        "className": "productHeader",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Price : $ ",
+                        "123",
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          " ",
+                          Array [
+                            <Icon
+                              as="i"
+                              name="star"
+                              size="small"
+/>,
+                            <Icon
+                              as="i"
+                              name="star"
+                              size="small"
+/>,
+                            <Icon
+                              as="i"
+                              name="star"
+                              size="small"
+/>,
+                            <Icon
+                              as="i"
+                              name="star"
+                              size="small"
+/>,
+                          ],
+                          " ",
+                          5,
+                        ],
+                        "className": "moreInfo",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "class",
+                          "props": Object {
+                            "as": "i",
+                            "name": "star",
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "1",
+                          "nodeType": "class",
+                          "props": Object {
+                            "as": "i",
+                            "name": "star",
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "2",
+                          "nodeType": "class",
+                          "props": Object {
+                            "as": "i",
+                            "name": "star",
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "3",
+                          "nodeType": "class",
+                          "props": Object {
+                            "as": "i",
+                            "name": "star",
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        " ",
+                        5,
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": <div
+                          dangerouslySetInnerHTML={
+                                                    Object {
+                                                                              "__html": "test1",
+                                                                            }
+                          }
+/>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "dangerouslySetInnerHTML": Object {
+                            "__html": "test1",
+                          },
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

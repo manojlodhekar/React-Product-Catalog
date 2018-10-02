@@ -1,0 +1,60 @@
+.container{
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+  text-align: center;
+}
+
+.searchInput{
+    width: 70%;
+    padding-right: 10px;
+}
+.searchedContent{
+    padding-top: 10px;
+}
+
+.listContainer{
+  text-align: left
+}
+
+.listContent{
+  justify-content: left;
+  padding: 5px 5px 5px 15px !important;
+  height: 100%;
+  text-align: left
+}
+.productHeader{
+  color: black !important;
+  font-size: 20px !important;
+}
+.moreInfo {
+  color: black !important;
+}
+
+
+.detailsContainer {
+  padding: 10px;
+  height: 100%;
+  text-align: left
+}
+.productTitle{
+    font-size: 22px !important;
+    line-height: 1.2;
+}
+.productPrice{
+    font-size: 18px !important;
+    font-weight: bold;
+    color: black !important;
+}
+.moreInfo {
+    text-decoration: underline
+}
+.category{
+    color: black !important;
+    font-size: 18px !important
+}
+
+.recsContent{
+    padding-top: 10px !important
+}
